@@ -1,0 +1,46 @@
+@charset "UTF-8";
+html{
+    font-size: 62.5%;
+}
+body {
+    text-align: center;
+    font-size: 1.4rem;
+}
+  *, *::before, *::after {
+    box-sizing: border-box;
+  }
+  
+header{
+  margin-bottom: 90px;
+}
+h1{
+  color: #606060;
+}
+p{
+  color: #A0A0A0;
+}
+.heading-img{
+  max-width: 250px;
+  max-height: 200px;
+}
+
+div{
+  margin-bottom: 110px;
+}
+.writings{
+  margin-bottom: 150px;
+}
+
+footer p{
+  color: #606060;
+  font-weight: bold;
+  margin: 0;
+}
+.name{
+  font-size: 3rem;
+  line-height: 3.3rem;
+}
+.masaki{
+  border-radius: 50%;
+  margin-bottom: 15px;
+}
