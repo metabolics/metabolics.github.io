@@ -2,13 +2,16 @@
 html{
     font-size: 62.5%;
 }
+*, *::before, *::after {
+    box-sizing: border-box;
+}
 body {
     text-align: center;
     font-size: 1.4rem;
 }
-  *, *::before, *::after {
-    box-sizing: border-box;
-  }
+a:link, a:visited, a:hover, a:active{
+    color: #A0A0A0;
+}
   
 header{
   margin-bottom: 90px;
