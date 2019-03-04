@@ -8,9 +8,10 @@ html{
 body {
     text-align: center;
     font-size: 1.4rem;
+    line-height: 2.2rem;
 }
 a:link, a:visited, a:hover, a:active{
-    color: #A0A0A0;
+    color: #989898;
 }
   
 header{
@@ -20,7 +21,7 @@ h1{
   color: #606060;
 }
 p{
-  color: #A0A0A0;
+  color: #989898;
 }
 .heading-img{
   max-width: 250px;
@@ -34,6 +35,9 @@ div{
   margin-bottom: 150px;
 }
 
+footer{
+  margin-bottom: 20px;
+}
 footer p{
   color: #606060;
   font-weight: bold;
