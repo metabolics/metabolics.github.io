@@ -9,6 +9,7 @@ body {
     text-align: center;
     font-size: 1.4rem;
     line-height: 2.4rem;
+    color: #989898;
 }
 a:link, a:visited, a:active{
     color: #989898;
@@ -18,39 +19,36 @@ a:hover{
 }
   
 header{
-  margin-bottom: 90px;
+  margin-bottom: 110px;
 }
-h1{
+.content{
+  margin-bottom: 110px;
+}
+.main{
+  margin-bottom: 110px;
+}
+footer{
+  margin-bottom: 20px;
+}
+
+.content__title{
   color: #606060;
 }
-p{
-  color: #989898;
-}
-.heading-img{
+.content__logo{
   max-width: 250px;
   max-height: 200px;
 }
 
-div{
-  margin-bottom: 110px;
-}
-.writings{
-  margin-bottom: 150px;
-}
-
-footer{
-  margin-bottom: 20px;
-}
 footer p{
   color: #606060;
   font-weight: bold;
   margin: 0;
 }
-.name{
+.footer__name{
   font-size: 3rem;
   line-height: 3.3rem;
 }
-.masaki{
+.footer__faceicon{
   border-radius: 50%;
   margin-bottom: 15px;
 }
