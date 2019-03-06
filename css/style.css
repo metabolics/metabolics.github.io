@@ -8,10 +8,13 @@ html{
 body {
     text-align: center;
     font-size: 1.4rem;
-    line-height: 2.2rem;
+    line-height: 2.4rem;
 }
-a:link, a:visited, a:hover, a:active{
+a:link, a:visited, a:active{
     color: #989898;
+}
+a:hover{
+  color: #B0B0B0;
 }
   
 header{
