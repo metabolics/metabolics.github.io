@@ -17,6 +17,10 @@ a:link, a:visited, a:active{
 a:hover{
   color: #B0B0B0;
 }
+.content__list{
+  list-style: none;
+  padding: 0;
+}
   
 header{
   margin-bottom: 110px;
