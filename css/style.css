@@ -46,7 +46,8 @@ footer{
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
-  margin: 0 190px;
+  max-width: 800px;
+  margin: 0 auto;
 }
 .content__card{
   width: 220px;
