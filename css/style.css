@@ -10,10 +10,10 @@ body {
     font-size: 1.4rem;
     font-family: "Hiragino Kaku Ghothic ProN", Meiryo, sans-serif;
     line-height: 2.4rem;
-    color: #989898;
+    color: #909090;
 }
 a:link, a:visited, a:active{
-    color: #989898;
+    color: #909090;
 }
 a:hover{
   color: #B0B0B0;
@@ -28,15 +28,12 @@ main{
 footer{
   margin-bottom: 20px;
 }
-h2{
-  font-size: 2.5rem;
-}
 .content{
   margin-bottom: 110px;
 }
-
 .content__title{
-  color: #606060;
+  color: #585858;
+  font-size: 2.8rem;
 }
 .content__logo{
   max-width: 250px;
@@ -57,7 +54,7 @@ h2{
   width: 220px;
   height: 230px;
   margin: 7px;
-  border: solid 1px #989898;
+  border: solid 1px #909090;
   background-color: #fff;
 }
 .content__card a{
@@ -80,9 +77,8 @@ h2{
 .tag::before, .tag::after{
   content: "：";
 }
- /*要改良*/
 footer p{
-  color: #606060;
+  color: #585858;
   font-weight: bold;
   margin: 0;
 }
@@ -94,13 +90,17 @@ footer p{
   border-radius: 50%;
   margin-bottom: 15px;
 }
+li{
+  margin-bottom: 3px;
+}
 
 @media (max-width: 812px) {
   .wrap{
     overflow: hidden;
   }
   body{
-    font-size: 1.1rem;
+    font-size: 1.2rem;
+    line-height: 2.2rem;
     word-break: keep-all;
   }
   h2{
