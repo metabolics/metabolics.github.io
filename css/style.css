@@ -8,6 +8,7 @@ html{
 body {
     text-align: center;
     font-size: 1.4rem;
+    font-family: "Hiragino Kaku Ghothic ProN", Meiryo, sans-serif;
     line-height: 2.4rem;
     color: #989898;
 }
@@ -74,9 +75,13 @@ h2{
   margin-top: 1.8rem;
   line-height: 0;
   vertical-align: sub;
-  /*color: #fff;
-  background-color: #B0B0B0;*/
+  font-weight: 200;
 }
+.tag::before, .tag::after{
+  content: "・";
+}
+ /*
+要改良*/
 footer p{
   color: #606060;
   font-weight: bold;
@@ -90,15 +95,41 @@ footer p{
   border-radius: 50%;
   margin-bottom: 15px;
 }
-/*
-@media (max-width: 830px) {
+
+@media (max-width: 812px) {
+  .wrap{
+    overflow: hidden;
+  }
+  body{
+    font-size: 1.1rem;
+  }
+  header{
+    margin-bottom: 90px;
+  }
+  h2{
+    margin: 17px;
+  }
+  .content{
+    margin-bottom: 90px;
+  }
+  .header__logo, .content__map{
+   max-width: 90%
+  }
+  .content__logo{
+    max-width: 200px;
+    max-height: 150px;
+  }
+  .content__card-box{
+    max-width: 450px;
+  }
   .content__card{
     width: 146px;
     height: 153px;
     margin: 1px;
+    line-height: 1.4rem;
   }
   .content__card__img{
     width: 100%;
     height: 108px;
   }
-}*/
+}/**/
